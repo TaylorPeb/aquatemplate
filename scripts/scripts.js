@@ -1,15 +1,12 @@
-$(document).ready(function() {
-	/*$("#menu").mouseover(function() {
-		$("menu")
-	});*/
-
-	function meme(loopT) {
-
-		var loopT;
-
-		for (var i = 0; i < loopT; i++) {
-				console.log("meme");
-		}
-	}
-	meme(5);
-});
+// Test to see if jQuery is working
+/*
+window.onload = function() {
+    if (window.jQuery) {  
+        // jQuery is loaded  
+        alert("Yeah!");
+    } else {
+        // jQuery is not loaded
+        alert("Doesn't Work");
+    }
+}
+*/
