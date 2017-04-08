@@ -1,0 +1,83 @@
+html {
+	margin: 0;
+}
+body {
+	margin: 0;
+}
+/* HERE ON DOWN IS CSS FOR 
+THE HEAD OF THE DOCUMENT*/ 
+#header {
+	background-color: orange;
+	width: 100%;
+	height: 2.5em;
+}
+
+#header ul {
+	padding: 0;
+	margin: 0;
+
+}
+
+#header ul li {
+	padding: 10px;
+	float: left;
+	margin: 0;
+	list-style-type: none;
+}
+
+#header ul li p {
+	margin: 0;
+	display: inline-block;
+}
+
+#menu {
+	width: 6%;
+	padding-right: 3%;
+}
+
+#search {
+	width: 6%;
+}
+
+#searchBar {
+	width: 70%;
+}
+
+#input {
+	width: 100%;
+	float: left;
+}
+
+/* HERE IS THE END OF THE HEAD OF THE 
+CSS DOCUMENT */ 
+
+/* HERE ON DOWN IS CSS FOR 
+THE CONTENT OF THE DOCUMENT*/ 
+#content {
+
+}
+/* HERE IS THE END OF THE CONTENT OF THE 
+CSS DOCUMENT */
+
+/* HERE ON DOWN IS CSS FOR 
+THE FOOTER OF THE DOCUMENT*/ 
+#footer {
+	background-color: green;
+	width: 100%;
+	height: 5em;
+}
+#footer ul {
+	padding: 0;
+	margin: 0;
+}
+#footer ul li {
+	padding: 10px;
+	margin: 0;
+	list-style-type: none;
+}
+#information {
+}
+#inforamtion ul li {
+}
+/* HERE IS THE END OF THE HEAD OF THE 
+CSS DOCUMENT */ 
