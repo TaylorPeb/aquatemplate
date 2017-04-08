@@ -1,5 +1,7 @@
 $(document).ready(function() {
-
+	/*$("#menu").mouseover(function() {
+		$("menu")
+	});*/
 
 	function meme(loopT) {
 
