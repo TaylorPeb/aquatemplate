@@ -1,3 +1,53 @@
 * {
+  position: relative;
+  font: 100% "Raleway";
   margin: 0;
   padding: 0; }
+
+#header {
+  z-index: 5;
+  background-color: #89bdd3;
+  width: 100%;
+  box-shadow: 0px 2px 5px black; }
+
+#header ul {
+  height: 4em; }
+
+#header ul li {
+  text-shadow: 2px 2px 2px black;
+  height: 100%; }
+
+#menu {
+  color: #ecf5f8;
+  width: 10%;
+  height: 100%;
+  background-color: #89bdd3;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: .5s; }
+
+#menu:focus {
+  outline: 0; }
+
+#menu:hover {
+  webkit-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.72);
+  moz-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.72);
+  box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.72);
+  background-color: #ecf5f8;
+  color: #4597ba; }
+
+#content {
+  background-color: #9ad3de;
+  height: 5em; }
+
+#content ul li {
+  list-style-type: none; }
+
+#mainContent {
+  width: 80%;
+  float: left; }
+
+#sidebar {
+  width: 20%;
+  float: right; }

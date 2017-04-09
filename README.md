@@ -1,1 +1,2 @@
 # aquatemplate
+### This is a website templateing project to get a better grip of basic programming preprocessors and jQuery. Feel free to look at this meme I am making. I'm hoping to eventually translate this into a fully functioning website
