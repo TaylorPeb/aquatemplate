@@ -11,10 +11,25 @@ window.onload = function() {
 }
 */
 $(document).ready(function() {
-	$("button").mouseenter(function() {
+	$(".menubutton").mouseenter(function() {
     	$(this).css({"z-index" : "900"});
 	});
-	$("button").mouseleave(function() {
+	$(".menubutton").mouseleave(function() {
     	$(this).css({"z-index" : "0"});
 	});
+/*	
+	$("#slide").slideUp("slow");
+
+	$(".menubutton").click(function() {
+	    var clickedVal = $(this).attr("data-target");
+	    $("#slide").slideDown("slow");    
+	    setInterval(function() {
+        	window.location.href = clickedVal;
+    	}, 500);
+	});
+*/
+
+$("#opacity").toggleClass("show-opacity");
+	
+
 });
