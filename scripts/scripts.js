@@ -11,5 +11,10 @@ window.onload = function() {
 }
 */
 $(document).ready(function() {
-	$("#menu").on()
+	$("button").mouseenter(function() {
+    	$(this).css({"z-index" : "900"});
+	});
+	$("button").mouseleave(function() {
+    	$(this).css({"z-index" : "0"});
+	});
 });

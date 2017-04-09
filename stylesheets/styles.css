@@ -19,7 +19,7 @@
   list-style-type: none;
   width: 10%; }
 
-button {
+#menubutton {
   position: relative;
   float: left;
   color: #ecf5f8;
@@ -30,14 +30,12 @@ button {
   border: none;
   cursor: pointer;
   transition: box-shadow 0.2s ease, color 0.8s ease-in-out, background-color 0.2s ease-in-out; }
-
-button:focus {
-  outline: 0; }
-
-button:hover {
-  box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.72);
-  background-color: #ecf5f8;
-  color: #4597ba; }
+  #menubutton:focus {
+    outline: 0; }
+  #menubutton:hover {
+    box-shadow: 6px 5px 9px 10px rgba(0, 0, 0, 0.72);
+    background-color: #ecf5f8;
+    color: #4597ba; }
 
 #content {
   background-color: #9ad3de;
