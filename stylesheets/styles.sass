@@ -15,10 +15,14 @@ $font-stack: 'Raleway'
 #header ul
 	height: 4em
 	
-#header ul li
-	text-shadow: 2px 2px 2px black
+#header ul button
+	float: left
 	height: 100%
-#menu
+	list-style-type: none
+	width: 10%
+button
+	position: relative
+	float: left
 	color: #ecf5f8
 	width: 10%
 	height: 100%
@@ -26,12 +30,10 @@ $font-stack: 'Raleway'
 	text-decoration: none
 	border: none
 	cursor: pointer
-	-webkit-transition: .5s
-#menu:focus
+	transition: box-shadow 0.2s ease, color 0.8s ease-in-out, background-color 0.2s ease-in-out
+button:focus
     outline: 0
-#menu:hover
-	webkit-box-shadow: 3px 3px 9px 0px rgba(0,0,0,0.72)
-	moz-box-shadow: 3px 3px 9px 0px rgba(0,0,0,0.72)
+button:hover
 	box-shadow: 3px 3px 9px 0px rgba(0,0,0,0.72)
 	background-color: #ecf5f8
 	color: #4597ba
